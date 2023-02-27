@@ -1,4 +1,4 @@
-// Rock beats Scissors, Paper beats Rock, Scissors beats Paper
+// Rock beats Scissors, Paper beats Rock, Scissors beats Paper.
 
 let rock = "Rock";
 let paper = "Paper";
