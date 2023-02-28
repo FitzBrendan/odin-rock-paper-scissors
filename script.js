@@ -161,11 +161,13 @@ function playRound(userChoice, computerChoice) {
     playerScore = 0;
     computerScore = 0;
     rounds = 1;
+    ties = 0;
     return (tally.textContent = `You Win the Game, with 5 rounds won`);
   } else if (computerScore === 5) {
     playerScore = 0;
     computerScore = 0;
     rounds = 1;
+    ties = 0;
     return (tally.textContent = `You Lose the Game, computer won 5 rounds`);
   }
 }
